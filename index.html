@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <img src="./calculadora-de-gorjeta_base/images/logo.svg" alt="Logo do plitter">
+        <img src="./images/logo.svg" alt="Logo do splitter">
     </header>
     <main>
         <section class="informacoes">
@@ -19,7 +19,7 @@
                 <div class="conta">
                     <label for="conta">Conta</label>
                     <div>
-                        <img src="./calculadora-de-gorjeta_base/images/icon-dollar.svg" alt="Ícone do cifrão">
+                        <img src="./images/icon-dollar.svg" alt="Ícone do cifrão">
                         <input type="number" name="conta" id="conta" placeholder="0">
                     </div>
                 </div>
@@ -39,20 +39,23 @@
                     <label for="pessoas">Quantidade de pessoas</label>
                     <p id="erro">Não pode ser zero</p>
                     <div>
-                        <img src="./calculadora-de-gorjeta_base/images/icon-person.svg" alt="Ícone da pessoa">
+                        <img src="./images/icon-person.svg" alt="Ícone da pessoa">
                         <input type="number" name="pessoas" id="pessoas" placeholder="0">
                     </div>
                 </div>
             </form>
         </section>
+
         <section class="resultados">
             <div class="gorjeta-total">
                 <p>
                     <strong>Gorjeta</strong> <br>
                     / pessoa
                 </p>
+
                 <strong>$ 0.00</strong>
             </div>
+
             <div class="total">
                 <p>
                     <strong>Total</strong> <br>
@@ -61,6 +64,26 @@
 
                 <strong>$ 0.00</strong>
             </div>
+
+            <div>
+                <div class="gorjeta-total">
+                    <p>
+                        <strong>Gorjeta</strong> <br>
+                        / pessoa
+                    </p>
+
+                    <strong>R$ 0.00</strong>
+                </div>
+
+                <div class="total">
+                    <p>
+                        <strong>Total</strong> <br>
+                        / pessoa
+                    </p>
+
+                    <strong>R$ 0.00</strong>
+                </div>    
+           </div>
 
             <button>Limpar</button>
         </section>
